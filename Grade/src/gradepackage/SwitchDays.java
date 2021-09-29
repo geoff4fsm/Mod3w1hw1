@@ -21,6 +21,8 @@ String dayString = null;
 	break;
 	case 7: dayString = "Sunday";
 	break;
+	default :
+		System.out.println("Invalid");
 	}
 	System.out.println(dayString);
 	}
